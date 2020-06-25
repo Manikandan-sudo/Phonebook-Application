@@ -16,6 +16,7 @@ namespace Phonebook.Controllers
 
         public ActionResult GotoDash()
         {
+
             return View("HomePage");
         }
     }
