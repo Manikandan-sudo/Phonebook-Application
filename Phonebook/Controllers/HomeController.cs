@@ -19,5 +19,10 @@ namespace Phonebook.Controllers
 
             return View("HomePage");
         }
+
+        public ActionResult CreateUser()
+        {
+            return View();
+        }
     }
 }
