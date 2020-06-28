@@ -1,0 +1,33 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CreateUser</title>
+</head>
+<body>
+    <div>
+        <form method="post" action="Submit">
+            UserName: <input id="Text1" type="text" name="Name" /> <br /><br />
+            AddressLine1: <input id="Text1" type="text" name="AddressLine1" /> <br /> <br />
+            AddressLine2: <input id="Text1" type="text" name="AddressLine2" /> <br /> <br />
+            City: <input id="Text1" type="text" name="City" /> <br /><br />
+            Pincode: <input id="Text1" type="text" name="Pincode" /> <br /><br />
+            PhoneNumber: <input id="Text1" type="text" name="PhoneNumber" /> <br /><br />
+            <input id="Submit1" type="submit" value="Save" /> <br /><br />
+
+            <div>
+                <input type="button" value="Cancel" onclick="location.href='@Url.Action("GotoDash", "Home")'" />
+            </div>
+
+
+
+        </form>
+    </div>
+</body>
+</html>

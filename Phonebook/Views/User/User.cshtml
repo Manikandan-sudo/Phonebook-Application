@@ -1,0 +1,27 @@
+﻿@model Phonebook.Models.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>User</title>
+</head>
+<body>
+    <div>
+        <h2>The User Data is Saved!</h2>
+        <h3>The User Data is showed below...</h3>
+        User Name = @Model.Name <br />
+        Address = @Model.AddressLine1, @Model.AddressLine2, @Model.City - @Model.Pincode <br />
+        Phone Number = @Model.PhoneNumber <br />
+    </div>
+    <br /><br />
+    <div>
+        <input type="button" value="Back to Home Page" onclick="location.href='@Url.Action("GotoDash", "Home")'" />
+    </div>
+</body>
+</html>
