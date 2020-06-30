@@ -164,6 +164,7 @@
     <Content Include="Views\Shared\_layout.cshtml" />
     <Content Include="Views\User\User.cshtml" />
     <Content Include="Views\User\CreateUser.cshtml" />
+    <Content Include="Views\User\DisplayUserDetails.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
