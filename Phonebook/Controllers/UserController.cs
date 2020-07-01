@@ -59,10 +59,5 @@ namespace Phonebook.Controllers
             userlist.Add(users);
             return View(userlist);
         }
-
-        public ActionResult Delete(int? i)
-        {
-
-        }
     }
 }

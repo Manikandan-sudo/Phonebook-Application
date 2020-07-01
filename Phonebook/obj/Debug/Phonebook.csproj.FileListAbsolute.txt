@@ -156,3 +156,7 @@ C:\Users\Alice\Desktop\Phonebook\Phonebook\obj\Debug\Phonebook.csproj.CoreCompil
 C:\Users\Alice\Desktop\Phonebook\Phonebook\obj\Debug\Phonebook.csproj.CopyComplete
 C:\Users\Alice\Desktop\Phonebook\Phonebook\obj\Debug\Phonebook.dll
 C:\Users\Alice\Desktop\Phonebook\Phonebook\obj\Debug\Phonebook.pdb
+C:\Users\Alice\Desktop\Phonebook\Phonebook\bin\EntityFramework.dll
+C:\Users\Alice\Desktop\Phonebook\Phonebook\bin\EntityFramework.SqlServer.dll
+C:\Users\Alice\Desktop\Phonebook\Phonebook\bin\EntityFramework.xml
+C:\Users\Alice\Desktop\Phonebook\Phonebook\bin\EntityFramework.SqlServer.xml
